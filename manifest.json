@@ -15,7 +15,7 @@
   },
   "permissions": [
     "webRequest",
-    "*://*.youtube.com/watch?v=dQw4w9WgXcQ",
+    "*://*.youtube.com/watch?v=dQw4w9WgXcQ*",
     "webRequestBlocking"
   ],
   "web_accessible_resources": ["/html/*"]

@@ -15,7 +15,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     };
   },
   {
-    urls: ["*://*.youtube.com/watch?v=dQw4w9WgXcQ"],
+    urls: ["*://*.youtube.com/watch?v=dQw4w9WgXcQ*"],
     types: [
       "main_frame",
       "sub_frame",
